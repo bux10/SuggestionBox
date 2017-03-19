@@ -3,7 +3,7 @@ app.factory('suggestions', [function () {
         posts: [
             {
                 title: 'Free pizza at club meetings',
-                upvotes: 15,
+                upvotes: 10,
                 comments: [
                     {
                         comment: 'test'
@@ -17,12 +17,12 @@ app.factory('suggestions', [function () {
             },
             {
                 title: 'Retrofit water fountain with Gatorade',
-                upvotes: 7,
+                upvotes: 2,
                 comments: []
             },
             {
                 title: 'Sing Bon Jovi\'s "Living on a Prayer" halfway through meetings',
-                upvotes: 3,
+                upvotes: 15,
                 comments: []
             }
         ]
