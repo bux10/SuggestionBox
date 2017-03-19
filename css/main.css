@@ -1,0 +1,11 @@
+body {
+    
+}
+.card {
+    border: solid 1px #000;
+    margin-top: 5px;
+    padding: 5px;
+}
+.main{
+    margin-top: 50px;
+}
