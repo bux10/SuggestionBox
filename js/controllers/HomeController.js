@@ -11,7 +11,8 @@ app.controller('HomeController', ['$scope', 'suggestions', function ($scope, sug
         }
         $scope.posts.push({
             title: $scope.title,
-            upvotes: 0
+            upvotes: 0,
+            comments: []
         });
         $scope.title = '';
     }

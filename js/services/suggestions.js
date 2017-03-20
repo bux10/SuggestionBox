@@ -4,11 +4,7 @@ app.factory('suggestions', [function () {
             {
                 title: 'Free pizza at club meetings',
                 upvotes: 10,
-                comments: [
-                    {
-                        comment: 'test'
-                    }
-                ]
+                comments: []
             },
             {
                 title: 'End all club emails with Laffy Taffy jokes',
