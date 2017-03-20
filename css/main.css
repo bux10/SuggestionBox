@@ -1,11 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200i,400');
+
 body {
-    
+    background-color: #333;
+    color: #fd9a00;
 }
-.card {
-    border: solid 1px #000;
+.header {
+    font-family: 'Raleway', sans-serif;
+    /*font-weight: lighter;*/
+}
+
+.list-group-item{
+    border: none;
+    background-color: #333;
+    border-top: solid 1px #fff;
     margin-top: 5px;
     padding: 5px;
 }
+
+.list-group-item:first-child{
+    border-radius: 0px;
+}
+
+.list-group-item:last-child{
+    border-radius: 0px;
+    border-bottom: solid 1px #fff;
+}
+
 .main{
-    margin-top: 50px;
+    /*margin-top: 20px;*/
+}
+.list-group-item-heading{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+.brand{
+    margin-top: 10px;
+}
+
+h3{
+    font-family: 'Raleway', sans-serif;
 }
